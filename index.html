@@ -18,17 +18,18 @@
     <header>
       <section class="header-content">
         <div class="header-container">
-          <img
-            src="img/logo-1-test-new2.jpg"
+          <image
+            src="image/logo-1-test-new2.jpg"
+            
             alt="Mercelia Logo"
             class="logo"
           />
           <nav>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contacts</a></li>
-              <li><a href="#">Why Us</a></li>
+              <li><a class="nav__link" href="#">Home</a></li>
+              <li><a class="nav__link" href="#about-contacts">About</a></li>
+              <li><a class="nav__link" href="#about-contacts">Contacts</a></li>
+              <li><a class="nav__link" href="#why-us">Why Us</a></li>
               <li><button href="#">Shop now</button></li>
             </ul>
           </nav>
@@ -39,43 +40,106 @@
             Affordable, stylish and built to last delivered fast to your
             doorstep
           </p>
-          <button class="shop-now-btn">Explore collection</button>
+          <button class="shop-now-btn nav__2">Explore collection</button>
         </div>
 
-        <!-- <div class="hero-section"> -->
-        <!-- <img
-            src="img/background-img.jpg"
+        <!-- <div class="hero-section"> 
+         <image
+            src="image/background-image.jpg"
             alt="Hero Image"
-            class="background-img"
-          /> -->
-        <!-- </div> -->
+            class="background-image"
+          />  </div>  -->
+
+
       </section>
     </header>
     <main>
       <section class="Product-grid-section">
-        <article class="products-grid grid--3-cols">
-          <div class="product-grid grid--2-cols">
-            <div>
-              <img
-                alt="A Nike air shoe image"
-                class="product-grid-image"
-                src="img/nike.jpg"
-              />
-            </div>
+        <div class="subheading">THE COLLECTIONS</div>
+
+        <article class="products-grid">
+          <div class="product-grid">
+            <image
+              alt="A Nike air shoe image"
+              class="product-grid-image"
+              src="image/nike.jpg"
+              data-src="image/air-jordan.jpeg"
+            />
+
             <div class="product-data-details">
               <p class="product-name">Apex Runner 2.0</p>
               <p class="product-details">Performance Trail Shoe</p>
               <div class="product-review">
-                <span class="product-review-details">4.8 (120 reviews)</span>
-                <img
+                <image
                   class="product-rating"
                   alt="Product-image-review"
-                  src="img/ratings/rating-45.png"
+                  src="image/ratings/rating-45.png"
                 />
+                <span class="product-review-details"
+                  ><strong>4.7</strong> (120 reviews)</span
+                >
               </div>
               <div class="product-price">
                 <span class="product-discount">&#8358; 18,000</span>
                 <span class="product-original-price">&#8358; 22,500</span>
+              </div>
+
+              <div class="size-options">Select size:</div>
+              <div class="product-sizes">
+                <button class="product-size">40</button>
+                <button class="product-size">41</button>
+                <button class="product-size">42</button>
+                <button class="product-size">43</button>
+                <button class="product-size">44</button>
+              </div>
+              <div class="color-options">Choose color:</div>
+              <div class="product-colors">
+                <div class="product-color-details">
+                  <button class="product-color product-color-1"></button>
+                  <span class="color-name">White</span>
+                </div>
+
+                <div class="product-color-details">
+                  <button class="product-color product-color-2"></button>
+                  <span class="color-name">Blue</span>
+                </div>
+
+                <div class="product-color-details">
+                  <button class="product-color product-color-3"></button>
+                  <span class="color-name">Grey</span>
+                </div>
+                <div class="product-color-details">
+                  <button class="product-color product-color-4"></button>
+                  <span class="color-name">Black</span>
+                </div>
+              </div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-grid">
+            <image
+              alt="A Nike air shoe image"
+              class="product-grid-image"
+              src="image/reebok.jpg"
+              data-src="image/weared-nike.jpeg"
+            />
+
+            <div class="product-data-details">
+              <p class="product-name">Reebok Classic</p>
+              <p class="product-details">Classic Running Shoe</p>
+              <div class="product-review">
+                <image
+                  class="product-rating"
+                  alt="Product-image-review"
+                  src="image/ratings/rating-45.png"
+                />
+                <span class="product-review-details"
+                  ><strong>4.8</strong> (109 reviews)</span
+                >
+              </div>
+              <div class="product-price">
+                <span class="product-discount">&#8358; 23,000</span>
+                <span class="product-original-price">&#8358; 25,000</span>
               </div>
 
               <div class="size-options">Select size:</div>
@@ -111,11 +175,441 @@
               <button class="add-to-cart-btn">Add to Cart</button>
             </div>
           </div>
-          <div class="product-grid">ikk98</div>
-          <div class="product-grid">egfgvr</div>
+          <div class="product-grid">
+            <image
+              alt="A Nike air shoe image"
+              class="product-grid-image"
+              src="image/corporate.jpg"
+              data-src="image/boxed-nike.jpeg"
+            />
+
+            <div class="product-data-details">
+              <p class="product-name">Combs Tech II</p>
+              <p class="product-details">Urban Tactical Gear</p>
+              <div class="product-review">
+                <image
+                  class="product-rating"
+                  alt="Product-image-review"
+                  src="image/ratings/rating-45.png"
+                />
+                <span class="product-review-details"
+                  ><strong>4.6</strong> (81 reviews)</span
+                >
+              </div>
+              <div class="product-price">
+                <span class="product-discount">&#8358; 27,000</span>
+                <span class="product-original-price">&#8358; 30,000</span>
+              </div>
+              <div class="size-options">Select size:</div>
+              <div class="product-sizes">
+                <button class="product-size">39</button>
+                <button class="product-size">40</button>
+                <button class="product-size">41</button>
+                <button class="product-size">42</button>
+                <button class="product-size">44</button>
+              </div>
+              <div class="color-options">Choose color:</div>
+              <div class="product-colors">
+                <div class="product-color-details">
+                  <button class="product-color product-color-1"></button>
+                  <span class="color-name">White</span>
+                </div>
+
+                <!-- <div class="product-color-details">
+                  <button class="product-color product-color-2"></button>
+                  <span class="color-name">Blue</span>
+                </div> -->
+
+                <div class="product-color-details">
+                  <button class="product-color product-color-3"></button>
+                  <span class="color-name">Grey</span>
+                </div>
+
+                <div class="product-color-details">
+                  <button class="product-color product-color-4"></button>
+                  <span class="color-name">Black</span>
+                </div>
+              </div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
         </article>
+        <div class="explore-catalog">Explore our catalog &rarr;</div>
       </section>
-      <!-- <button class="btn-gradient">Hello</button> -->
+      <section class="features-section">
+        <div class="features-grid">
+          <div class="feature">
+            <!-- <ion-icon name="bicycle-outline"></ion-icon> -->
+            <image
+              src="image/Logo/bicycle-outline.svg"
+              alt="Fast Delivery Icon"
+              class="feature-icon"
+            />
+            <h3 class="feature-title">Fast Delivery</h3>
+            <p class="feature-description">
+              Get your shoes delivered to your doorstep in record time with our
+              efficient shipping services.
+            </p>
+          </div>
+          <div class="feature">
+            <!-- <ion-icon name="bicycle-outline"></ion-icon> -->
+            <image
+              src="image/Logo/shield-checkmark-outline.svg"
+              alt="Fast Delivery Icon"
+              class="feature-icon"
+            />
+            <h3 class="feature-title">Quality Materials</h3>
+            <p class="feature-description">
+              Crafted with durable materials that provide long-lasting comfort
+              and style.
+            </p>
+          </div>
+          <div class="feature">
+            <!-- <ion-icon name="bicycle-outline"></ion-icon> -->
+            <image
+              src="image/Logo/footsteps-outline.svg"
+              alt="Fast Delivery Icon"
+              class="feature-icon"
+            />
+            <h3 class="feature-title">Designed for Comfort</h3>
+            <p class="feature-description">
+              Designed for all-day comfort with ergonomic support and breathable
+              materials.
+            </p>
+          </div>
+          <div class="feature">
+            <!-- <ion-icon name="bicycle-outline"></ion-icon> -->
+            <image
+              src="image/Logo/wallet-outline.svg"
+              alt="Fast Delivery Icon"
+              class="feature-icon"
+            />
+            <h3 class="feature-title">Stylish yet Affordable</h3>
+            <p class="feature-description">
+              Get premium designs without high costs, making stylish footwear
+              accessible to everyone.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="why-us-section" id="why-us">
+        <div class="subheading">WHY US</div>
+        <div class="why-us-content">
+          <p class="why-us-write-up">
+            We deliver exactly what you see &mdash; authentic, high-quality
+            shoes with no surprises.
+          </p>
+          <image
+            alt="a nike shoe being put on"
+            src="image/background-img.jpg"
+            data-src="image/bkground.jpeg"
+            class="why-us-image justify-left"
+          />
+        </div>
+        <div class="why-us-content why-us-content-2">
+          <image
+            alt="a nike shoe being put on"
+            src="image/ogivy.jpg"
+            data-src="image/Nike-air.jpeg"
+            class="why-us-image"
+          />
+          <p class="why-us-write-up">
+            We offer a smooth return or exchange process if the product does not
+            fit. We also attend to all inquiries to ensure a smooth
+            customer-first service experience.
+          </p>
+        </div>
+        <div></div>
+      </section>
+      <section class="testimonial">
+        <div class="testimonial-subheading">TESTIMONIALS</div>
+        <div class="testimonial-container">
+          <div class="testimonies">
+            <h3 class="heading-secondary">Our reviews!</h3>
+            <div class="review-container">
+              <div class="review-box">
+                <image
+                  src="image/customers/customer-1.jpg"
+                  alt="customer picture"
+                  class="customer-img"
+                />
+                <p class="review-text">
+                  These shoes are exactly as seen! Very comfortable and stylish.
+                  Delivery was fast and the seller was super responsive.
+                </p>
+                <span class="customer-name"> Hannah Smith &mdash; Lagos</span>
+              </div>
+              <div class="review-box">
+                <image
+                  src="image/customers/customer-2.jpg"
+                  alt="customer picture"
+                  class="customer-img"
+                />
+                <p class="review-text">
+                  Great quality for the price. Fits perfectly and looks even
+                  better in person.
+                </p>
+                <span class="customer-name"> Daniel O. &mdash; Lagos</span>
+              </div>
+              <div class="review-box">
+                <image
+                  src="image/customers/customer-3.jpg"
+                  alt="customer picture"
+                  class="customer-img"
+                />
+                <p class="review-text">
+                  I needed something classy for work and Mercelia didn't
+                  disappoint. The packaging was neat, delivery was quick and the
+                  shoes feel premium.
+                </p>
+                <span class="customer-name"> Major South &mdash; Ibadan</span>
+              </div>
+              <div class="review-box">
+                <image
+                  src="image/customers/customer-6.jpg"
+                  alt="customer picture"
+                  class="customer-img"
+                />
+                <p class="review-text">
+                  The doc marten I selected is comfortable, durable and
+                  affordable, the best combo
+                </p>
+                <span class="customer-name"> Harley &mdash; Oyo</span>
+              </div>
+            </div>
+          </div>
+          <div class="gallery">
+            <!-- <span style="background-color: aquamarine">hi</span>
+            <span>he</span>
+            <span>him</span>
+            <span>his</span>
+            <span>hint</span> -->
+            <figure class="gallery-item">
+              <image
+                src="image/white-and-black-nike.jpg"
+                alt="Photo of beautifully
+            arranged shoe"
+                class="gallery-image"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <image
+                src="image/corporate-shoe2.jpeg"
+                alt="Photo of beautifully
+            arranged shoe"
+                class="gallery-image"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <image
+                src="image/air-jordan.jpeg"
+                alt="Photo of beautifully
+            arranged shoe"
+                class="gallery-image"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <image
+              src="image/white-nike.jpeg"
+                alt="Photo of beautifully
+            arranged shoe"
+                class="gallery-image"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <image
+                src="image/Timberland.jpg"
+                alt="Photo of beautifully
+            arranged shoe"
+                class="gallery-image"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <image
+                src="image/boxed-nike.jpeg"
+                alt="Photo of beautifully
+            arranged shoe"
+                class="gallery-image"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <image
+                src="image/plain-white-red-nike.jpeg"
+                alt="Photo of beautifully
+            arranged shoe"
+                class="gallery-image"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <image
+                src="image/Blue-nike.jpg"
+                alt="Photo of beautifully
+            arranged shoe"
+                class="gallery-image"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <image
+                src="image/Black-nike.jpg"
+                alt="Photo of beautifully
+            arranged shoe"
+                class="gallery-image"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+     
+      <section class="section-cta">
+        <div class="cta-container">
+          <div class="form-section">
+            <h3 class="cta-heading">
+              Get your first pair at a special discount!
+            </h3>
+
+            <p class="cta-text">
+              Premium, stylish, and comfortable shoes are waiting for you. Shop
+              today and enjoy an exclusive first-order offer. Fast delivery,
+              easy returns, and quality guaranteed.
+            </p>
+            <div class="form">
+              <div class="form-details">
+                <label for="full-name" class="full-name">Full Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="Major Collins"
+                  name="full-name"
+                  class="input-name"
+                  required
+                />
+              </div>
+              <div class="form-details">
+                <label for="full-name" class="full-name">Email address</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="bigwave@gmail.com"
+                  name="full-name"
+                  class="input-name"
+                  required
+                />
+              </div>
+              <div class="form-details">
+                <label for="full-name" class="full-name"
+                  >Where did you hear us from?</label
+                >
+                <input
+                  id="full-name"
+                  type="text"
+                  name="full-name"
+                  class="input-name"
+                  required
+                />
+              </div>
+              <div class="form-details">
+                <!-- <input
+                  id="full-name"
+                  type="text"
+                  placeholder="bigwave@gmail.com"
+                  name="full-name"
+                  class="input-name"
+                  required
+                /> -->
+                <button class="cta-button">Sign up now</button>
+              </div>
+            </div>
+          </div>
+          <image
+            src="image/white-sneakers.jpg"
+            alt="A shoe image"
+            class="cta-shoe-image"
+          />
+        </div>
+      </section>
+      <section class="footer-section" id="about-contacts">
+        <div class="footer-container">
+          <div class="footer-column">
+            <image
+              src="image/logo-1-test-new2.jpg"
+              alt="Mercelia Logo"
+              class="ending-logo"
+            />
+            <ul class="social-icon">
+              <li>
+                <a href="#"
+                  ><image
+                    src="image/logo-instagram.svg"
+                    class="social-logo ig-logo"
+                    alt="Instagram"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><image
+                    src="image/logo-facebook.svg"
+                    class="social-logo"
+                    alt="Facebook"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><image
+                    src="image/logo-twitter.svg"
+                    class="social-logo"
+                    alt="Twitter"
+                /></a>
+              </li>
+            </ul>
+            <p class="copyright">
+              Copyright &copy; <span class="year">2027</span> by Mercelia, Inc.
+              All rights reserved.
+            </p>
+          </div>
+          <div class="footer-column">
+            <p class="footer-heading">Contact us</p>
+
+            <p class="address">
+              2nd Floor Block 3, Plot 112 Arisekola str., Ibadan, Oyo state.
+              Nigeria
+            </p>
+            <p class="contact-address">
+              <a class="footer-link" href="tel:415-201-6370">09041334737</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@mercelia.com"
+                >okunadeesther2020@gmail.com</a
+              >
+            </p>
+          </div>
+          <div class="footer-column">
+            <p class="footer-heading">Account</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Create account</a></li>
+              <li><a class="footer-link" href="#">Sign in</a></li>
+              <li><a class="footer-link" href="#">iOS app</a></li>
+              <li><a class="footer-link" href="#">Android app</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <p class="footer-heading">Company</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">About Mercelia</a></li>
+              <li><a class="footer-link" href="#">For Business</a></li>
+              <li><a class="footer-link" href="#">Sell as vendor </a></li>
+              <li><a class="footer-link" href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <p class="footer-heading">Resources</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Recipe directory </a></li>
+              <li><a class="footer-link" href="#">Help center</a></li>
+              <li><a class="footer-link" href="#">Privacy & terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
